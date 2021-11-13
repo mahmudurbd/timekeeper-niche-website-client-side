@@ -1,29 +1,40 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-
+import './Header.css';
+import logo from '../../../images/timekeeper-logo.png';
+import useAuth from '../../../hooks/useAuth';
 const Header = () => {
+  const {user,logOut,admin} = useAuth();
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar className="header-area py-3" collapseOnSelect expand="lg" bg="light" variant="light">
   <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
-      <Nav.Link href="#features">Home</Nav.Link>
-      <Nav.Link href="#pricing">More Watches</Nav.Link>
+      <Nav.Link href="/home">Home</Nav.Link>
+      <Nav.Link href="/morewatches">More Watches</Nav.Link>
+      { user.email &&
       <NavDropdown title="Dashboard" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Pay</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">My Orders</NavDropdown.Item>
+        {admin && <NavDropdown.Item href="/addproduct">Add Product</NavDropdown.Item>}
+        {admin && <NavDropdown.Item href="/manageorders">Manage Orders</NavDropdown.Item>}
+        {admin && <NavDropdown.Item href="/makeadmin">Make Admin</NavDropdown.Item>}
+        {admin && <NavDropdown.Divider />}
+        <NavDropdown.Item href="/payment">Pay</NavDropdown.Item>
+        <NavDropdown.Item href="/myorders">My Orders</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Reviews</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Logout</NavDropdown.Item>
+        <NavDropdown.Item onClick={logOut} href="/home">Logout</NavDropdown.Item>
       </NavDropdown>
+      }
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
+      { !user.email && <Nav.Link href="/login">Login</Nav.Link>}
+      { user.email &&
+      <Navbar.Text>
+        <span><i className="fas fa-user-shield"></i></span> <a href="#login"> {user.email}</a>
+      </Navbar.Text>}
+      
     </Nav>
   </Navbar.Collapse>
   </Container>

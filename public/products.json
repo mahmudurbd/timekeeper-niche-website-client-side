@@ -1,0 +1,108 @@
+[{
+    "name": "Rolex Daytona",
+    "description": "The Rolex Cosmograph Daytona is a mechanical chronograph wristwatch designed to meet the needs of racing drivers by measuring elapsed time and calculating average speed",
+    "price": 78,
+    "ratings": 4.9,
+    "reviews": 464,
+    "image": "https://i.ibb.co/myZWL6x/watch-1.jpg"
+  },
+   {
+    "name": "Patek Philippe",
+    "description": "Switzerland has become synonymous with luxury watches and one of the top Swiss watch brands of all time is Patek Philippe",
+    "price": 94,
+    "ratings": 3.5,
+    "reviews": 364,
+    "image": "https://i.ibb.co/LhgTr2P/watch-2.jpg"
+  },
+   {
+    "name": "Audemars Piguet",
+    "description": "Audemars Piguet is one of the most famous high-end watch companies in the world",
+    "price": 89,
+    "ratings": 2.5,
+    "reviews": 321,
+    "image": "https://i.ibb.co/Yc6KQxm/watch-3.jpg"
+  },
+   {
+    "name": "A.Lange & Söhne",
+    "description": "The first German luxury watch brand on our list, at A. Lange and Söhne, excellence and perfection is a priority at every stage of the process.",
+    "price": 49,
+    "ratings": 4.0,
+    "reviews": 288,
+    "image": "https://i.ibb.co/BrBZ0SV/watch-4.jpg"
+  },
+   {
+    "name": "Omega",
+    "description": "Omega watches have travelled to the North Pole, been launched into space, and descended into the depths of the ocean in submarines.",
+    "price": 33,
+    "ratings": 2.0,
+    "reviews": 279,
+    "image": "https://i.ibb.co/8bsmGmS/watch-5.jpg"
+  },
+   {
+    "name": "Blancpain",
+    "description": "Perpetual calendars, tourbillons, carousels, and chronographs—the level of intricacy of the mechanisms contained within a Blancpain watch are astounding.",
+    "price": 55,
+    "ratings": 3.8,
+    "reviews": 158,
+    "image": "https://i.ibb.co/QfS9SsZ/watch-6.jpg"
+  },
+   {
+    "name": "IWC Schaffhausen",
+    "description": "An IWC Schaffhausen watch is that rare thing: a luxury accessory that marries flawless functionality with exceptional design. ",
+    "price": 75,
+    "ratings": 2.7,
+    "reviews": 221,
+    "image": "https://i.ibb.co/stMd93C/watch-7.jpg"
+  },
+   {
+    "name": "Jaeger-LeCoultre",
+    "description": "Jaeger-LeCoultre is known within the industry for its inventiveness.With its legendary rectangular design, it’s a horological great—and the perfect unisex watch.",
+    "price": 65,
+    "ratings": 4.7,
+    "reviews": 400,
+    "image": "https://i.ibb.co/xCq0y1M/watch-8.jpg"
+  },
+   {
+    "name": "Chopard",
+    "description": "Known for its contemporary and playful designs, Chopard offers a fashionable and creative timepiece for style-savvy shoppers.",
+    "price": 52,
+    "ratings": 3.8,
+    "reviews": 421,
+    "image": "https://i.ibb.co/GdN9vxW/watch-9.jpg"
+  },
+   {
+    "name": "Y-Piaget",
+    "description": "Piaget is most famous for being a pioneer in ultra-thin watch calibers. This is the company behind both the world’s thinnest manual wind watch and the world’s thinnest automatic watch.",
+    "price": 69,
+    "ratings": 4.3,
+    "reviews": 426,
+    "image": "https://i.ibb.co/h1DsXX6/watch-10.jpg"
+  },
+   {
+    "name": "Cartier",
+    "description": "Cartier’s range of luxury watches are some of the most celebrated timepieces on the market and the brand has established itself as a major player within the watch-making industry",
+    "price": 37,
+    "ratings": 3.5,
+    "reviews": 370,
+    "image": "https://i.ibb.co/zQy5Yjp/watch-11.jpg"
+  },
+   {
+    "name": "Vacheron Constantin",
+    "description": "Vacheron Constantin is the most established luxury watch brand on this list—and the world’s oldest continuously operating watch-maker. ",
+    "price": 35,
+    "ratings": 4.5,
+    "reviews": 399,
+    "image": "https://i.ibb.co/fN2tzns/watch-12.jpg"
+  }]
+
+  
+
+
+
+
+
+
+
+
+
+

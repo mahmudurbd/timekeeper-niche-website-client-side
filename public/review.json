@@ -1,0 +1,18 @@
+[{
+    "name": "Jone Doe",
+    "review": "It's always a pleasure to get branded watch. They are personable, responsive, and results-oriented!",
+    "job": "Programmer, SmartTech",
+    "ratings": 3.5
+  },
+   {
+    "name": "Robert Thom",
+    "review": "Timekeeper is attentive, personable, and professional. Will and his team provide great support for my needs.",
+    "job": "Co-founder, Navana",
+    "ratings": 3
+  },
+   {
+    "name": "Akash Patel",
+    "review": "Great results. Enjoyable to work with, and most importantly, enabled us to have the presence on the web we needed to conduct business in today's market.",
+    "job": "Adam Mohr, CEO, Mohr Imports",
+    "ratings": 4.5
+  }]

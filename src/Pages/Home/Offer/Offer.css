@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&family=Montserrat:wght@400;600&display=swap');
+
+.offer-wrap {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.offer-wrap h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color:#f9706a;
+}
+.offer-wrap h4 {
+    font-size: 35px;
+    font-weight: 400;
+    color:#333;
+}
+.offer-wrap h3 {
+    font-size: 60px;
+    font-weight: 600;
+    color:#333;
+}
+.offer-wrap p {
+    font-size: 16px;
+    font-weight: 300;
+    color:#333;
+}
+.offer-btn {
+    border: 1px solid #f9706a;
+    background-color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f9706a;
+}
+.offer-btn:hover {
+    background-color: #f9706a;
+    color: #fff;
+}

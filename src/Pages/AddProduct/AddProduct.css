@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600;700&family=Montserrat:wght@400;600&display=swap');
+
+.product-add-area {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.product-add-area h3 {
+    font-weight: 600;
+    font-size: 40px;
+}
+.product-add-area input, 
+.product-add-area textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.product-add-btn {
+    border: 1px solid #f9706a;
+    background-color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f9706a;
+}
+.product-add-btn:hover {
+    background-color: #f9706a;
+    color: #fff;
+}

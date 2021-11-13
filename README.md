@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# TimeKeeper | Branded Watches Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+### [Click Here]()
 
-## Available Scripts
+<br>
+<br>
+
+## About This Project
+-This is a Wrist Watches buying related website built by React
+-Here People can purchase their desired watches
+-New Packages can be added easily
+-Normal user's dashboard
+-Admin dashboard
+
+## Features
+-HTML, CSS, Bootstrap
+-JavaScript, React Bootstrap, React Router
+-Firebase, MongoDB, Heroku
 
 In the project directory, you can run:
 
