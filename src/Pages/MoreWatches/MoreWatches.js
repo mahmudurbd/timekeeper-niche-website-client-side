@@ -4,7 +4,7 @@ import SingleWatch from '../SingleWatch/SingleWatch';
 const MoreWatches = () => {
     const [products,setProducts] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://limitless-caverns-91030.herokuapp.com/products')
         .then(res => res.json())
         .then(data => setProducts(data));
     },[])
