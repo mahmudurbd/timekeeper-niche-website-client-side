@@ -13,10 +13,11 @@
 -Normal user's dashboard
 -Admin dashboard
 
-## Features
--HTML, CSS, Bootstrap
--JavaScript, React Bootstrap, React Router
--Firebase, MongoDB, Heroku
+## Frond-end Technology:
+HTML5
+CSS3
+Bootstrap4
+React Js
 
 In the project directory, you can run:
 
