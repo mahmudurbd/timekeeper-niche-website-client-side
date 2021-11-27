@@ -14,10 +14,10 @@
 -Admin dashboard
 
 ## Frond-end Technology:
-HTML5
-CSS3
-Bootstrap4
-React Js
+-HTML5
+-CSS3
+-Bootstrap4
+-React Js
 
 In the project directory, you can run:
 
