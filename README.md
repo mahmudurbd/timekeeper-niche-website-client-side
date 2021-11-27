@@ -4,14 +4,16 @@
 ### [Click Here](https://time-keeper-19d8e.web.app/)
 
 <br>
-<br>
 
 ## About This Project
--This is a Wrist Watches buying related website built by React
--Here People can purchase their desired watches
--New Packages can be added easily
--Normal user's dashboard
--Admin dashboard
+- It is a Branded Watches Niche website, which serves various branded watches like Rolex, Omega,
+Citizen, etc.
+- Users and Admin can sign up and log in to this website using google and email & password. Anyone
+cannot go to some pages without login, which is developed by React Router.
+- There is a dashboard for the User and Admin. Users can place orders, see their order list. Admin
+can see all orders of the users and can add a new service and make a new admin by providing the
+new admin’s email.
+
 
 ## Frond-end Technology:
 - HTML5
