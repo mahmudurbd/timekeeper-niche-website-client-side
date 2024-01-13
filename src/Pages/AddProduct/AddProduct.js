@@ -6,7 +6,7 @@ const AddProduct = () => {
     const { register, handleSubmit,reset } = useForm();
     const onSubmit = data => {
         console.log(data)
-        axios.post('https://limitless-caverns-91030.herokuapp.com/products',data)
+        axios.post('https://timekeeper-website-server-side.vercel.app/products',data)
         .then(res => {
             if(res.data.insertId) {
                 alert('Product added successfully');

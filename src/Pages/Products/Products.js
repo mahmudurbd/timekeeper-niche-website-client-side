@@ -4,7 +4,7 @@ import './Products.css';
 const Products = () => {
     const [products,setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://limitless-caverns-91030.herokuapp.com/products/6')
+        fetch('https://timekeeper-website-server-side.vercel.app/products/6')
         .then(res => res.json())
         .then(data => setProducts(data));
     },[])

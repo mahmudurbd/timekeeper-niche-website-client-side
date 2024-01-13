@@ -7,7 +7,7 @@ const MakeAdmin = () => {
     }
     const handleAdminSubmit = e => {
         const user = {email};
-        fetch('https://limitless-caverns-91030.herokuapp.com/users/admin', {
+        fetch('https://timekeeper-website-server-side.vercel.app/users/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

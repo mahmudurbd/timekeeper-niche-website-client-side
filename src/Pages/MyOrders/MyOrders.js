@@ -4,7 +4,7 @@ import MyOrder from '../MyOrder/MyOrder';
 const MyOrders = () => {
     const [myOrders,setMyOrders] = useState([]);
     useEffect(() => {
-        fetch('https://limitless-caverns-91030.herokuapp.com/orders')
+        fetch('https://timekeeper-website-server-side.vercel.app/orders')
         .then(res => res.json())
         .then(data => setMyOrders(data));
     },[])

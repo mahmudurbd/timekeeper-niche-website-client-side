@@ -85,7 +85,7 @@ const useFirebase = () => {
             }
     
        useEffect(() => {
-        fetch(`https://limitless-caverns-91030.herokuapp.com/users/${user.email}`)
+        fetch(`https://timekeeper-website-server-side.vercel.app/users/${user.email}`)
         .then(res => res.json())
         .then(data => setAdmin(data.admin))
        },[user.email])        
@@ -104,7 +104,7 @@ const useFirebase = () => {
     // Save user 
     const saveUser = (email,displayName,method) => {
         const user = {email,displayName}
-        fetch('https://limitless-caverns-91030.herokuapp.com/users',{
+        fetch('https://timekeeper-website-server-side.vercel.app/users',{
             method: method,
             headers: {
                 'content-type': 'application/json'

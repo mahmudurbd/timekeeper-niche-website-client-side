@@ -6,7 +6,7 @@ const MyOrder = (props) => {
     const orderId = props.order._id;
     const handleDelete = id => {
         console.log(id);
-        const url = `https://limitless-caverns-91030.herokuapp.com/orders/${id}`;
+        const url = `https://timekeeper-website-server-side.vercel.app/orders/${id}`;
         fetch(url,{
             method: 'DELETE',
         })

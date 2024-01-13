@@ -4,7 +4,7 @@ import SingleWatch from '../SingleWatch/SingleWatch';
 const MoreWatches = () => {
     const [products,setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://limitless-caverns-91030.herokuapp.com/products')
+        fetch('https://timekeeper-website-server-side.vercel.app/products')
         .then(res => res.json())
         .then(data => setProducts(data));
     },[])

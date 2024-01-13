@@ -11,7 +11,7 @@ const Booking = () => {
     console.log(user.displayName);
     
     useEffect(()=> {
-        fetch('https://limitless-caverns-91030.herokuapp.com/products')
+        fetch('https://timekeeper-website-server-side.vercel.app/products')
         .then(res => res.json())
         .then(data => setTotalData(data))
     },[]);
@@ -22,7 +22,7 @@ const Booking = () => {
     const onSubmit = data => {
         data.order = bookingItem;
         
-        fetch('https://limitless-caverns-91030.herokuapp.com/orders',{
+        fetch('https://timekeeper-website-server-side.vercel.app/orders',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
